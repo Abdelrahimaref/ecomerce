@@ -1,5 +1,18 @@
 "use strict";
 
+function Send() {
+  var Toast = Swal.mixin({
+    toast: false,
+    position: 'center',
+    showConfirmButton: false,
+    timer: 2500
+  });
+  Toast.fire({
+    type: 'success',
+    title: 'Item Added To Cart Succefully'
+  });
+}
+
 $(window).on("scroll", function () {
   if ($(window).scrollTop() >= 300) {
     $('#goUPButton').slideDown(700);

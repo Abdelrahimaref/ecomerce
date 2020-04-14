@@ -1,4 +1,16 @@
-
+function Send() {
+  const Toast = Swal.mixin({
+      toast: false,
+      position: 'center',
+      showConfirmButton: false,
+      timer: 2500
+    })
+    
+    Toast.fire({
+      type: 'success',
+      title: 'Item Added To Cart Succefully'
+    })
+  }
 
 
 
