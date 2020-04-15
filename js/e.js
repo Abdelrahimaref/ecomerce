@@ -1,4 +1,6 @@
-function Send() {
+
+
+function Delet() {
   const Toast = Swal.mixin({
       toast: false,
       position: 'center',
@@ -8,10 +10,9 @@ function Send() {
     
     Toast.fire({
       type: 'success',
-      title: 'Item Added To Cart Succefully'
+      title: 'Item Deleted Succefully'
     })
   }
-
 
 
 $(window).on("scroll",function(){

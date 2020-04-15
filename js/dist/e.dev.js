@@ -1,6 +1,6 @@
 "use strict";
 
-function Send() {
+function Delet() {
   var Toast = Swal.mixin({
     toast: false,
     position: 'center',
@@ -9,7 +9,7 @@ function Send() {
   });
   Toast.fire({
     type: 'success',
-    title: 'Item Added To Cart Succefully'
+    title: 'Item Deleted Succefully'
   });
 }
 

@@ -10,13 +10,13 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	   
         <meta name="description"content="mt company">
-        <title> Marketo</title>
+        <title> Stacknet | Medical Insurance Conpany</title>
         <link   
              rel = "icon" 
-            href ="img/logo-green-small-1x.png" 
+            href ="img/logo.png" 
             type = "image/x-icon">
-
-        <link rel="stylesheet"href="css/bootstrap.css"/>
+        <!--call bootstrap-->
+	    <link rel="stylesheet"href="css/bootstrap.css"/>
         <!--Page Style-->	   
         <link rel="stylesheet"href="css/form.css"/>
        <!--Animate.css-->
@@ -76,14 +76,20 @@
                     <div class="card-body text-center">
                         <img src="img/icon_login.svg" alt="" style="height: 8rem;">
                         <h3 class="text-center text-muted h4content">SIGN IN TO Marketo</h3>
-                        <form class="form" role="form" autocomplete="off"action="index.html">  
+                        <form class="form" role="form" autocomplete="off"action="ecomerce-admin/index.html">  
                             <div class="form-group">
                                 <input type="email"class="form-control input" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <input type="email"class="form-control input" placeholder="Password">
                             </div>
+                            
                             <div class="form-group">
+                                <select class="form-control " id="Select1">
+                                  <option value="">Login As...</option>
+                                  <option>User</option>
+                                  <option>Admin</option>
+                                </select>
 
                             <div class=" text-center">
                                 <button type="submit" class="btn btn-primary my-4"> Login</button>
